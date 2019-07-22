@@ -1,0 +1,481 @@
+body {
+    margin: 0;
+    background: url('http://cdn.community.tf/assets/images/space_bg.png') no-repeat center top, #000;
+}
+
+.panel-title {
+    text-align: center;
+    font-size: 13px;
+}
+
+.white {
+    font-family: 'TF2 Build';
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #ce7545;
+}
+
+.container {
+    background-image: linear-gradient(180deg, #453c33, #33302b);
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px 0px #544c44, inset 0 -1px 3px 0 #24221e;
+}
+
+.container.header {
+    max-width: 1210px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.header-logo {
+    margin-left: 45px;
+    margin-top: 18px;
+    float: left;
+}
+
+.header-links,
+.main-links {
+    float: left;
+}
+
+.main-links {
+    margin: 0;
+    padding-left: 14px;
+}
+
+.header-links li,
+.main-links li {
+    float: left;
+    list-style: none;
+    padding: 0 10px;
+    line-height: 40px;
+}
+
+.main-links li {
+    line-height: 40px;
+    padding: 0 19px;
+}
+
+.main-links li a,
+.main-links li {
+    color: #615b55;
+}
+
+.main-links li:hover a,
+.main-links li:hover {
+    color: #fff;
+}
+
+.main-links li.focus a,
+.main-links li.focus {
+    color: #fff;
+}
+
+.link {
+    display: inline-block;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.link>a {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.header-user {
+    float: right;
+}
+
+.header-avatar {
+    border: 2px solid #797979;
+    float: right;
+    max-width: 40px;
+    max-height: 40px;
+    margin-right: 30px;
+    margin-top: 14px;
+    border-radius: 3px;
+}
+
+.header-username {
+    display: inline-block;
+    float: right;
+}
+
+.username {
+    display: block;
+    font-size: 18px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.logout {
+    color: white;
+    float: left;
+    font-family: "TF2 Secondary";
+    font-size: 14px;
+    float: right;
+    margin-left: 16px;
+}
+
+.logout>a {
+    color: #5e5e5e;
+}
+
+i.mdi-logout {
+    font-size: 13px;
+    float: right;
+    color: #5e5e5e;
+    margin-right: 14px;
+    cursor: pointer;
+}
+
+.logo-container {
+    width: calc(100% - 60px);
+    max-width: 226px;
+    margin: 0 auto;
+}
+
+.logo-container img {
+    width: 100%;
+}
+
+.container.pre-main {
+    width: calc(100% + 10px);
+    height: 40px;
+    border-radius: 3px;
+    margin-left: -5px;
+    box-shadow: 0 5px 10px 0 #0f0f0f, inset 0 1px 3px 0px #544c44, inset 0 -1px 3px 0 #24221e;
+    position: relative;
+    z-index: 3;
+}
+
+@media (max-width:1200px) {
+    .container.pre-main {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+.main-links {
+    display: inline-block;
+}
+
+.link-main {
+    margin-top: 12px;
+    font-size: 16px;
+}
+
+.link-main>a {
+    color: #615b55;
+}
+
+.link-main>a:first-child {
+    margin-left: -10px;
+}
+
+.play-banner {
+    display: flex;
+    float: right;
+    padding-right: 3px;
+    height: 100%;
+    background-color: #5a831b;
+    border-radius: 3px;
+}
+
+.stamping {
+    box-shadow: inset 0 1px 3px 0px rgba(255, 255, 255, .1), inset 0 -1px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+.small-container {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    height: 20px;
+}
+
+.play-button {
+    margin-top: 11px;
+    margin-bottom: 10px;
+    margin-right: 7px;
+}
+
+.play-banner:hover {
+    background-color: #689722;
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+}
+
+.main {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: auto;
+    z-index: 0;
+    margin-bottom: 120px;
+}
+
+.posts {
+    position: relative;
+    z-index: 2;
+    box-shadow: 5px 5px 10px 0 #0f0f0f;
+    width: 75%;
+    background-color: #2b2826;
+    padding: 14px 37px 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    margin: 0;
+    font-family: 'Calibri';
+    font-weight: bold;
+    color: white;
+}
+
+.date-author {
+    font-family: 'Calibri';
+    font-size: 15px;
+    color: white;
+}
+
+.posts img {
+    margin-top: 10px;
+    margin-right: 0px;
+    max-width: 100%;
+}
+
+.post-content {
+    color: #aaaaaa;
+    font-family: "Calibri";
+    font-size: 16px;
+}
+
+.post {
+    width: 100%;
+    border-bottom: 1px solid #333;
+    margin-bottom: 18px;
+}
+
+.right-panels {
+    padding: 0 14px 14px;
+    box-sizing: border-box;
+    background-color: #22201e;
+    max-width: 310px;
+    width: 25%;
+}
+
+.container.right-panel {
+    width: auto;
+    padding: 9px 9px;
+    margin-top: 18px;
+
+}
+
+.monthly-players span {
+    font-size: 13px;
+    margin-left: 48px;
+}
+
+.vcontainer.monthly {
+    line-height: 24px;
+    text-align: center;
+    font-family: "TF2 Secondary", sans-serif;
+    font-size: 24px;
+    padding: 3px 0;
+    letter-spacing: 1px;
+}
+
+.vcontainer.links {
+    box-sizing: border-box;
+    padding: 5px 0 5px 30px;
+    line-height: 34px;
+    font-family: "Calibri", sans-serif;
+}
+
+.vcontainer.links div {
+    color: #aaa;
+}
+
+.vcontainer {
+    color: #b0b0b0;
+    background: #2c2626;
+    width: 100%;
+    border-radius: 3px;
+    margin-top: 9px;
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 1);
+}
+
+.banner-right {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.tf-links span:first-child {
+    font-size: 13px;
+    margin: 0 auto;
+    margin-left: 70px;
+}
+
+.links-main {
+    background: #2c2626;
+    width: 223px;
+    padding-left: 45px;
+    vertical-align: middle;
+    border-radius: 3px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.links-main>div {
+    height: 34px;
+    line-height: 34px;
+    color: #aaa;
+    font-family: 'Calibri';
+}
+
+.right-link a:nth-child(1) {
+    margin-top: 12px;
+}
+
+.right-link>a {
+    color: #aaaaaa;
+}
+
+.link-mini {
+    display: inline-block;
+    transform: scale(1.6) translate(-6px, 0);
+}
+
+.merch {
+    padding-top: 7px;
+    height: 126px;
+}
+
+.merch>span:first-child {
+    font-size: 13px;
+    margin: 0 auto;
+    margin-left: 55px;
+}
+
+.merch-promo {
+    background: #2c2626;
+    width: 268px;
+    height: 93px;
+    border-radius: 3px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.merch-promo>div {
+    display: inline-block;
+    float: left;
+    max-width: 160px;
+    margin-left: 10px;
+}
+
+.merch-promo>div>span:first-child {
+    font-family: 'TF2 Secondary';
+    font-size: 14px;
+    color: #c1c1c1;
+}
+
+.merch-promo>div>span {
+    font-family: 'TF2 Secondary';
+    font-size: 12px;
+    color: #818181;
+}
+
+.merch-promo>div:nth-child(2) {
+    display: inline-block;
+    float: right;
+    margin-top: 12px;
+    margin-right: 17px;
+    margin-left: 0;
+}
+
+.merch-price {
+    width: 42px;
+    height: 13px;
+    background-color: #5a831b;
+    font-family: 'TF2 Secondary';
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    z-index: 2;
+}
+
+.vcontainer.language {
+    padding: 6px 0;
+}
+
+.vcontainer.language select {
+    width: 70%;
+    display: block;
+    border-color: rgba(0, 0, 0, .5);
+    background: #2c2626;
+    color: #fff;
+    margin: auto;
+}
+
+.footer {
+    padding: 30px 0;
+    width: 100%;
+    background: #1b1a18;
+    position: relative;
+    z-index: -1;
+}
+
+.footer_pre {
+    background: #22201e;
+    width: 100%;
+    height: 30px;
+    box-shadow: 0 8px 5px -3px #0f0f0f;
+    position: relative;
+    z-index: 0;
+}
+
+.flex .col {
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+.company_copyright {
+    width: 100px;
+    height: 29px;
+    background-size: 100%;
+    background-position-y: 0;
+    flex-shrink: 0;
+}
+
+.company_copyright:hover {
+    background-position-y: -100%;
+    cursor: pointer;
+}
+
+.company_copyright.valve {
+    background-image: url(http://cdn.community.tf/assets/images/valve_branding_copyright.png);
+}
+
+.company_copyright.palette {
+    background-image: url(http://cdn.community.tf/assets/images/palette_branding_copyright.png);
+}
+
+.copyright {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+    color: #444;
+    font-family: 'Calibri', sans-serif;
+    font-size: 14px;
+}

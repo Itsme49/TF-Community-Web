@@ -1,0 +1,19 @@
+<?
+$_CONFIG = array(
+    'mysql' => array(
+        'hostname' => '',
+        'username' => '',
+        'password' => '',
+        'database' => ''
+    ),
+    'steam_key' => '',
+    'post_per_page' => 10,
+    'website_domain' => '',
+    'template' => 'default',
+    "separator" => "::",
+    "redirects" => array(
+        'login' => '/engine/oauth/steam.php',
+        'logout' => '/engine/oauth/steam.php?logout',
+    )
+);
+?>

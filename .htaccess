@@ -1,0 +1,15 @@
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)/$ /$1 [L,R]
+
+RewriteRule ^blog$ index.php?page=blog [L,QSA]
+RewriteRule ^blog/([0-9_]+)$ index.php?page=blog&offset=$1 [L,QSA]
+RewriteRule ^updates$ index.php?page=updates [L,QSA]
+RewriteRule ^updates/([0-9_]+)$ index.php?page=updates&offset=$1 [L,QSA]
+RewriteRule ^news$ index.php?page=news [L,QSA]
+RewriteRule ^news/([0-9_]+)$ index.php?page=news&offset=$1 [L,QSA]
+
+RewriteRule ^l/([a-z_]+)$ index.php?page=language&locale=$1 [L,QSA]
+
+RewriteRule ^([A-Za-z0-9_]+)$ index.php?page=$1 [L,QSA]
